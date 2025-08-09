@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+[[mods]]
+modId="georeglow"
+version="1.0.0"
+displayName="GeOre Glowstone Addon"
+description='''Addon für GeOre, das Glowstone als neues GeOre hinzufügt'''
+[[dependencies.georeglow]]
+    modId="geore"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
